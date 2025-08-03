@@ -22,7 +22,7 @@ function StudentForm() {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://localhost:5001/api/students", {
+      const res = await fetch("https://fsd-2-gmvg.onrender.com/api/students", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
